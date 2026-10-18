@@ -1,0 +1,17 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__company-sql__list_tables",
+      "mcp__company-sql__describe_table",
+      "mcp__company-sql__run_query",
+      "mcp__company-sql__create_chart",
+      "mcp__company-sql__export_csv",
+      "mcp__company-sql__save_report",
+      "mcp__company-sql__preview_write"
+    ],
+    "ask": [
+      "mcp__company-sql__execute_write"
+    ]
+  }
+}
