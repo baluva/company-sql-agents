@@ -59,7 +59,7 @@ Add this to `%APPDATA%\Claude\claude_desktop_config.json`, then restart Claude D
   "mcpServers": {
     "company-sql": {
       "command": "uv",
-      "args": ["run", "--project", "C:\\Users\\louey\\company-sql-agents", "python", "C:\\Users\\louey\\company-sql-agents\\server.py"]
+      "args": ["run", "--project", "C:\\path\\to\\company-sql-agents", "python", "C:\\path\\to\\company-sql-agents\\server.py"]
     }
   }
 }
